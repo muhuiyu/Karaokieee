@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4305AC7281745C900DE0DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AC6281745C900DE0DAA /* AppDelegate.swift */; };
+		E4305AC9281745C900DE0DAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AC8281745C900DE0DAA /* SceneDelegate.swift */; };
+		E4305AD0281745CC00DE0DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4305ACF281745CC00DE0DAA /* Assets.xcassets */; };
+		E4305AD3281745CC00DE0DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4305AD1281745CC00DE0DAA /* LaunchScreen.storyboard */; };
+		E4305ADE281745CC00DE0DAA /* KaraokieeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305ADD281745CC00DE0DAA /* KaraokieeeTests.swift */; };
+		E4305AE8281745CC00DE0DAA /* KaraokieeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AE7281745CC00DE0DAA /* KaraokieeeUITests.swift */; };
+		E4305AEA281745CC00DE0DAA /* KaraokieeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AE9281745CC00DE0DAA /* KaraokieeeUITestsLaunchTests.swift */; };
+		E4305B102817461700DE0DAA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AF72817461700DE0DAA /* Constants.swift */; };
+		E4305B112817461700DE0DAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AF82817461700DE0DAA /* ViewController.swift */; };
+		E4305B122817461700DE0DAA /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AFA2817461700DE0DAA /* IconButton.swift */; };
+		E4305B132817461700DE0DAA /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AFB2817461700DE0DAA /* RoundButton.swift */; };
+		E4305B142817461700DE0DAA /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AFC2817461700DE0DAA /* CircleView.swift */; };
+		E4305B152817461700DE0DAA /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AFD2817461700DE0DAA /* TextButton.swift */; };
+		E4305B162817461700DE0DAA /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AFE2817461700DE0DAA /* UIColor+Theme.swift */; };
+		E4305B172817461700DE0DAA /* UIFont+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305AFF2817461700DE0DAA /* UIFont+Theme.swift */; };
+		E4305B182817461700DE0DAA /* UIView+fadein.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B012817461700DE0DAA /* UIView+fadein.swift */; };
+		E4305B192817461700DE0DAA /* String+convertEmojiToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B022817461700DE0DAA /* String+convertEmojiToImage.swift */; };
+		E4305B1A2817461700DE0DAA /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B032817461700DE0DAA /* UIColor+hex.swift */; };
+		E4305B1B2817461700DE0DAA /* Decimal+formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B042817461700DE0DAA /* Decimal+formatter.swift */; };
+		E4305B1C2817461700DE0DAA /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B052817461700DE0DAA /* UIViewController+Keyboard.swift */; };
+		E4305B1D2817461700DE0DAA /* Date+startOfMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B062817461700DE0DAA /* Date+startOfMonth.swift */; };
+		E4305B1E2817461700DE0DAA /* UIStack+RemoveAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B072817461700DE0DAA /* UIStack+RemoveAll.swift */; };
+		E4305B1F2817461700DE0DAA /* UIView+roundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B082817461700DE0DAA /* UIView+roundCorners.swift */; };
+		E4305B202817461700DE0DAA /* Date+BeforeAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B092817461700DE0DAA /* Date+BeforeAfter.swift */; };
+		E4305B212817461700DE0DAA /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B0A2817461700DE0DAA /* UIViewController+Toast.swift */; };
+		E4305B222817461700DE0DAA /* UILabel+setLineHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B0B2817461700DE0DAA /* UILabel+setLineHeight.swift */; };
+		E4305B232817461700DE0DAA /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B0C2817461700DE0DAA /* UIViewController+Utils.swift */; };
+		E4305B242817461700DE0DAA /* String+capitalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B0D2817461700DE0DAA /* String+capitalization.swift */; };
+		E4305B252817461700DE0DAA /* Double+roundToDecimalPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B0E2817461700DE0DAA /* Double+roundToDecimalPlace.swift */; };
+		E4305B262817461700DE0DAA /* String+convertFromHTMLToAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B0F2817461700DE0DAA /* String+convertFromHTMLToAttributedString.swift */; };
+		E4305B322817466600DE0DAA /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B312817466600DE0DAA /* Song.swift */; };
+		E4305B34281746A000DE0DAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B33281746A000DE0DAA /* HomeViewController.swift */; };
+		E4305B36281746A900DE0DAA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B35281746A900DE0DAA /* SearchViewController.swift */; };
+		E4305B38281746C100DE0DAA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B37281746C100DE0DAA /* HomeViewModel.swift */; };
+		E4305B3B2817476000DE0DAA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E4305B3A2817476000DE0DAA /* SnapKit */; };
+		E4305B3E2817477200DE0DAA /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E4305B3D2817477200DE0DAA /* RxCocoa */; };
+		E4305B402817477200DE0DAA /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E4305B3F2817477200DE0DAA /* RxRelay */; };
+		E4305B432817478200DE0DAA /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = E4305B422817478200DE0DAA /* RxDataSources */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4305ADA281745CC00DE0DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4305ABB281745C900DE0DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4305AC2281745C900DE0DAA;
+			remoteInfo = Karaokieee;
+		};
+		E4305AE4281745CC00DE0DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4305ABB281745C900DE0DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4305AC2281745C900DE0DAA;
+			remoteInfo = Karaokieee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4305AC3281745C900DE0DAA /* Karaokieee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaokieee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4305AC6281745C900DE0DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4305AC8281745C900DE0DAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4305ACF281745CC00DE0DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4305AD2281745CC00DE0DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4305AD4281745CC00DE0DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4305AD9281745CC00DE0DAA /* KaraokieeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokieeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4305ADD281745CC00DE0DAA /* KaraokieeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokieeeTests.swift; sourceTree = "<group>"; };
+		E4305AE3281745CC00DE0DAA /* KaraokieeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokieeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4305AE7281745CC00DE0DAA /* KaraokieeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokieeeUITests.swift; sourceTree = "<group>"; };
+		E4305AE9281745CC00DE0DAA /* KaraokieeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokieeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4305AF72817461700DE0DAA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E4305AF82817461700DE0DAA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4305AFA2817461700DE0DAA /* IconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		E4305AFB2817461700DE0DAA /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		E4305AFC2817461700DE0DAA /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		E4305AFD2817461700DE0DAA /* TextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		E4305AFE2817461700DE0DAA /* UIColor+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
+		E4305AFF2817461700DE0DAA /* UIFont+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Theme.swift"; sourceTree = "<group>"; };
+		E4305B012817461700DE0DAA /* UIView+fadein.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+fadein.swift"; sourceTree = "<group>"; };
+		E4305B022817461700DE0DAA /* String+convertEmojiToImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+convertEmojiToImage.swift"; sourceTree = "<group>"; };
+		E4305B032817461700DE0DAA /* UIColor+hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		E4305B042817461700DE0DAA /* Decimal+formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Decimal+formatter.swift"; sourceTree = "<group>"; };
+		E4305B052817461700DE0DAA /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		E4305B062817461700DE0DAA /* Date+startOfMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+startOfMonth.swift"; sourceTree = "<group>"; };
+		E4305B072817461700DE0DAA /* UIStack+RemoveAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStack+RemoveAll.swift"; sourceTree = "<group>"; };
+		E4305B082817461700DE0DAA /* UIView+roundCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+roundCorners.swift"; sourceTree = "<group>"; };
+		E4305B092817461700DE0DAA /* Date+BeforeAfter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+BeforeAfter.swift"; sourceTree = "<group>"; };
+		E4305B0A2817461700DE0DAA /* UIViewController+Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Toast.swift"; sourceTree = "<group>"; };
+		E4305B0B2817461700DE0DAA /* UILabel+setLineHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+setLineHeight.swift"; sourceTree = "<group>"; };
+		E4305B0C2817461700DE0DAA /* UIViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		E4305B0D2817461700DE0DAA /* String+capitalization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+capitalization.swift"; sourceTree = "<group>"; };
+		E4305B0E2817461700DE0DAA /* Double+roundToDecimalPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+roundToDecimalPlace.swift"; sourceTree = "<group>"; };
+		E4305B0F2817461700DE0DAA /* String+convertFromHTMLToAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+convertFromHTMLToAttributedString.swift"; sourceTree = "<group>"; };
+		E4305B312817466600DE0DAA /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		E4305B33281746A000DE0DAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E4305B35281746A900DE0DAA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E4305B37281746C100DE0DAA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4305AC0281745C900DE0DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4305B402817477200DE0DAA /* RxRelay in Frameworks */,
+				E4305B432817478200DE0DAA /* RxDataSources in Frameworks */,
+				E4305B3E2817477200DE0DAA /* RxCocoa in Frameworks */,
+				E4305B3B2817476000DE0DAA /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4305AD6281745CC00DE0DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4305AE0281745CC00DE0DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4305ABA281745C900DE0DAA = {
+			isa = PBXGroup;
+			children = (
+				E4305AC5281745C900DE0DAA /* Karaokieee */,
+				E4305ADC281745CC00DE0DAA /* KaraokieeeTests */,
+				E4305AE6281745CC00DE0DAA /* KaraokieeeUITests */,
+				E4305AC4281745C900DE0DAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4305AC4281745C900DE0DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4305AC3281745C900DE0DAA /* Karaokieee.app */,
+				E4305AD9281745CC00DE0DAA /* KaraokieeeTests.xctest */,
+				E4305AE3281745CC00DE0DAA /* KaraokieeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4305AC5281745C900DE0DAA /* Karaokieee */ = {
+			isa = PBXGroup;
+			children = (
+				E4305B2C2817464100DE0DAA /* Models */,
+				E4305B272817462300DE0DAA /* Features */,
+				E4305AC6281745C900DE0DAA /* AppDelegate.swift */,
+				E4305AC8281745C900DE0DAA /* SceneDelegate.swift */,
+				E4305AF62817461700DE0DAA /* Core */,
+				E4305ACF281745CC00DE0DAA /* Assets.xcassets */,
+				E4305AD1281745CC00DE0DAA /* LaunchScreen.storyboard */,
+				E4305AD4281745CC00DE0DAA /* Info.plist */,
+			);
+			path = Karaokieee;
+			sourceTree = "<group>";
+		};
+		E4305ADC281745CC00DE0DAA /* KaraokieeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4305ADD281745CC00DE0DAA /* KaraokieeeTests.swift */,
+			);
+			path = KaraokieeeTests;
+			sourceTree = "<group>";
+		};
+		E4305AE6281745CC00DE0DAA /* KaraokieeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4305AE7281745CC00DE0DAA /* KaraokieeeUITests.swift */,
+				E4305AE9281745CC00DE0DAA /* KaraokieeeUITestsLaunchTests.swift */,
+			);
+			path = KaraokieeeUITests;
+			sourceTree = "<group>";
+		};
+		E4305AF62817461700DE0DAA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E4305AF72817461700DE0DAA /* Constants.swift */,
+				E4305AF82817461700DE0DAA /* ViewController.swift */,
+				E4305AF92817461700DE0DAA /* Buttons */,
+				E4305AFE2817461700DE0DAA /* UIColor+Theme.swift */,
+				E4305AFF2817461700DE0DAA /* UIFont+Theme.swift */,
+				E4305B002817461700DE0DAA /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E4305AF92817461700DE0DAA /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E4305AFA2817461700DE0DAA /* IconButton.swift */,
+				E4305AFB2817461700DE0DAA /* RoundButton.swift */,
+				E4305AFC2817461700DE0DAA /* CircleView.swift */,
+				E4305AFD2817461700DE0DAA /* TextButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		E4305B002817461700DE0DAA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E4305B012817461700DE0DAA /* UIView+fadein.swift */,
+				E4305B022817461700DE0DAA /* String+convertEmojiToImage.swift */,
+				E4305B032817461700DE0DAA /* UIColor+hex.swift */,
+				E4305B042817461700DE0DAA /* Decimal+formatter.swift */,
+				E4305B052817461700DE0DAA /* UIViewController+Keyboard.swift */,
+				E4305B062817461700DE0DAA /* Date+startOfMonth.swift */,
+				E4305B072817461700DE0DAA /* UIStack+RemoveAll.swift */,
+				E4305B082817461700DE0DAA /* UIView+roundCorners.swift */,
+				E4305B092817461700DE0DAA /* Date+BeforeAfter.swift */,
+				E4305B0A2817461700DE0DAA /* UIViewController+Toast.swift */,
+				E4305B0B2817461700DE0DAA /* UILabel+setLineHeight.swift */,
+				E4305B0C2817461700DE0DAA /* UIViewController+Utils.swift */,
+				E4305B0D2817461700DE0DAA /* String+capitalization.swift */,
+				E4305B0E2817461700DE0DAA /* Double+roundToDecimalPlace.swift */,
+				E4305B0F2817461700DE0DAA /* String+convertFromHTMLToAttributedString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E4305B272817462300DE0DAA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E4305B292817462E00DE0DAA /* Home */,
+				E4305B2D2817464D00DE0DAA /* Song */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E4305B282817462900DE0DAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4305B33281746A000DE0DAA /* HomeViewController.swift */,
+				E4305B35281746A900DE0DAA /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4305B292817462E00DE0DAA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E4305B2A2817463600DE0DAA /* Views */,
+				E4305B2B2817463B00DE0DAA /* View Models */,
+				E4305B282817462900DE0DAA /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E4305B2A2817463600DE0DAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4305B2B2817463B00DE0DAA /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4305B37281746C100DE0DAA /* HomeViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E4305B2C2817464100DE0DAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4305B312817466600DE0DAA /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4305B2D2817464D00DE0DAA /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				E4305B302817465F00DE0DAA /* Views */,
+				E4305B2F2817465A00DE0DAA /* View Models */,
+				E4305B2E2817465600DE0DAA /* Controllers */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
+		E4305B2E2817465600DE0DAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4305B2F2817465A00DE0DAA /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E4305B302817465F00DE0DAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4305AC2281745C900DE0DAA /* Karaokieee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4305AED281745CC00DE0DAA /* Build configuration list for PBXNativeTarget "Karaokieee" */;
+			buildPhases = (
+				E4305ABF281745C900DE0DAA /* Sources */,
+				E4305AC0281745C900DE0DAA /* Frameworks */,
+				E4305AC1281745C900DE0DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Karaokieee;
+			packageProductDependencies = (
+				E4305B3A2817476000DE0DAA /* SnapKit */,
+				E4305B3D2817477200DE0DAA /* RxCocoa */,
+				E4305B3F2817477200DE0DAA /* RxRelay */,
+				E4305B422817478200DE0DAA /* RxDataSources */,
+			);
+			productName = Karaokieee;
+			productReference = E4305AC3281745C900DE0DAA /* Karaokieee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4305AD8281745CC00DE0DAA /* KaraokieeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4305AF0281745CC00DE0DAA /* Build configuration list for PBXNativeTarget "KaraokieeeTests" */;
+			buildPhases = (
+				E4305AD5281745CC00DE0DAA /* Sources */,
+				E4305AD6281745CC00DE0DAA /* Frameworks */,
+				E4305AD7281745CC00DE0DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4305ADB281745CC00DE0DAA /* PBXTargetDependency */,
+			);
+			name = KaraokieeeTests;
+			productName = KaraokieeeTests;
+			productReference = E4305AD9281745CC00DE0DAA /* KaraokieeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4305AE2281745CC00DE0DAA /* KaraokieeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4305AF3281745CC00DE0DAA /* Build configuration list for PBXNativeTarget "KaraokieeeUITests" */;
+			buildPhases = (
+				E4305ADF281745CC00DE0DAA /* Sources */,
+				E4305AE0281745CC00DE0DAA /* Frameworks */,
+				E4305AE1281745CC00DE0DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4305AE5281745CC00DE0DAA /* PBXTargetDependency */,
+			);
+			name = KaraokieeeUITests;
+			productName = KaraokieeeUITests;
+			productReference = E4305AE3281745CC00DE0DAA /* KaraokieeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4305ABB281745C900DE0DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E4305AC2281745C900DE0DAA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					E4305AD8281745CC00DE0DAA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = E4305AC2281745C900DE0DAA;
+					};
+					E4305AE2281745CC00DE0DAA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = E4305AC2281745C900DE0DAA;
+					};
+				};
+			};
+			buildConfigurationList = E4305ABE281745C900DE0DAA /* Build configuration list for PBXProject "Karaokieee" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4305ABA281745C900DE0DAA;
+			packageReferences = (
+				E4305B392817476000DE0DAA /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E4305B3C2817477200DE0DAA /* XCRemoteSwiftPackageReference "RxSwift" */,
+				E4305B412817478200DE0DAA /* XCRemoteSwiftPackageReference "RxDataSources" */,
+			);
+			productRefGroup = E4305AC4281745C900DE0DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4305AC2281745C900DE0DAA /* Karaokieee */,
+				E4305AD8281745CC00DE0DAA /* KaraokieeeTests */,
+				E4305AE2281745CC00DE0DAA /* KaraokieeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4305AC1281745C900DE0DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4305AD3281745CC00DE0DAA /* LaunchScreen.storyboard in Resources */,
+				E4305AD0281745CC00DE0DAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4305AD7281745CC00DE0DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4305AE1281745CC00DE0DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4305ABF281745C900DE0DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4305B252817461700DE0DAA /* Double+roundToDecimalPlace.swift in Sources */,
+				E4305B1E2817461700DE0DAA /* UIStack+RemoveAll.swift in Sources */,
+				E4305B192817461700DE0DAA /* String+convertEmojiToImage.swift in Sources */,
+				E4305B222817461700DE0DAA /* UILabel+setLineHeight.swift in Sources */,
+				E4305B132817461700DE0DAA /* RoundButton.swift in Sources */,
+				E4305B38281746C100DE0DAA /* HomeViewModel.swift in Sources */,
+				E4305AC7281745C900DE0DAA /* AppDelegate.swift in Sources */,
+				E4305AC9281745C900DE0DAA /* SceneDelegate.swift in Sources */,
+				E4305B232817461700DE0DAA /* UIViewController+Utils.swift in Sources */,
+				E4305B1D2817461700DE0DAA /* Date+startOfMonth.swift in Sources */,
+				E4305B212817461700DE0DAA /* UIViewController+Toast.swift in Sources */,
+				E4305B1B2817461700DE0DAA /* Decimal+formatter.swift in Sources */,
+				E4305B162817461700DE0DAA /* UIColor+Theme.swift in Sources */,
+				E4305B112817461700DE0DAA /* ViewController.swift in Sources */,
+				E4305B152817461700DE0DAA /* TextButton.swift in Sources */,
+				E4305B34281746A000DE0DAA /* HomeViewController.swift in Sources */,
+				E4305B122817461700DE0DAA /* IconButton.swift in Sources */,
+				E4305B142817461700DE0DAA /* CircleView.swift in Sources */,
+				E4305B1C2817461700DE0DAA /* UIViewController+Keyboard.swift in Sources */,
+				E4305B242817461700DE0DAA /* String+capitalization.swift in Sources */,
+				E4305B202817461700DE0DAA /* Date+BeforeAfter.swift in Sources */,
+				E4305B172817461700DE0DAA /* UIFont+Theme.swift in Sources */,
+				E4305B182817461700DE0DAA /* UIView+fadein.swift in Sources */,
+				E4305B36281746A900DE0DAA /* SearchViewController.swift in Sources */,
+				E4305B262817461700DE0DAA /* String+convertFromHTMLToAttributedString.swift in Sources */,
+				E4305B102817461700DE0DAA /* Constants.swift in Sources */,
+				E4305B1F2817461700DE0DAA /* UIView+roundCorners.swift in Sources */,
+				E4305B322817466600DE0DAA /* Song.swift in Sources */,
+				E4305B1A2817461700DE0DAA /* UIColor+hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4305AD5281745CC00DE0DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4305ADE281745CC00DE0DAA /* KaraokieeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4305ADF281745CC00DE0DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4305AE8281745CC00DE0DAA /* KaraokieeeUITests.swift in Sources */,
+				E4305AEA281745CC00DE0DAA /* KaraokieeeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4305ADB281745CC00DE0DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4305AC2281745C900DE0DAA /* Karaokieee */;
+			targetProxy = E4305ADA281745CC00DE0DAA /* PBXContainerItemProxy */;
+		};
+		E4305AE5281745CC00DE0DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4305AC2281745C900DE0DAA /* Karaokieee */;
+			targetProxy = E4305AE4281745CC00DE0DAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4305AD1281745CC00DE0DAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4305AD2281745CC00DE0DAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4305AEB281745CC00DE0DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4305AEC281745CC00DE0DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4305AEE281745CC00DE0DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Karaokieee/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.Karaokieee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4305AEF281745CC00DE0DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Karaokieee/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.Karaokieee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4305AF1281745CC00DE0DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.KaraokieeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karaokieee.app/Karaokieee";
+			};
+			name = Debug;
+		};
+		E4305AF2281745CC00DE0DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.KaraokieeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karaokieee.app/Karaokieee";
+			};
+			name = Release;
+		};
+		E4305AF4281745CC00DE0DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.KaraokieeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Karaokieee;
+			};
+			name = Debug;
+		};
+		E4305AF5281745CC00DE0DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.KaraokieeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Karaokieee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4305ABE281745C900DE0DAA /* Build configuration list for PBXProject "Karaokieee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4305AEB281745CC00DE0DAA /* Debug */,
+				E4305AEC281745CC00DE0DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4305AED281745CC00DE0DAA /* Build configuration list for PBXNativeTarget "Karaokieee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4305AEE281745CC00DE0DAA /* Debug */,
+				E4305AEF281745CC00DE0DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4305AF0281745CC00DE0DAA /* Build configuration list for PBXNativeTarget "KaraokieeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4305AF1281745CC00DE0DAA /* Debug */,
+				E4305AF2281745CC00DE0DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4305AF3281745CC00DE0DAA /* Build configuration list for PBXNativeTarget "KaraokieeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4305AF4281745CC00DE0DAA /* Debug */,
+				E4305AF5281745CC00DE0DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E4305B392817476000DE0DAA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E4305B3C2817477200DE0DAA /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		E4305B412817478200DE0DAA /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4305B3A2817476000DE0DAA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4305B392817476000DE0DAA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		E4305B3D2817477200DE0DAA /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4305B3C2817477200DE0DAA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		E4305B3F2817477200DE0DAA /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4305B3C2817477200DE0DAA /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		E4305B422817478200DE0DAA /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4305B412817478200DE0DAA /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E4305ABB281745C900DE0DAA /* Project object */;
+}
