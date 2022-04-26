@@ -39,12 +39,25 @@
 		E4305B262817461700DE0DAA /* String+convertFromHTMLToAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B0F2817461700DE0DAA /* String+convertFromHTMLToAttributedString.swift */; };
 		E4305B322817466600DE0DAA /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B312817466600DE0DAA /* Song.swift */; };
 		E4305B34281746A000DE0DAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B33281746A000DE0DAA /* HomeViewController.swift */; };
-		E4305B36281746A900DE0DAA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B35281746A900DE0DAA /* SearchViewController.swift */; };
 		E4305B38281746C100DE0DAA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B37281746C100DE0DAA /* HomeViewModel.swift */; };
 		E4305B3B2817476000DE0DAA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E4305B3A2817476000DE0DAA /* SnapKit */; };
 		E4305B3E2817477200DE0DAA /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E4305B3D2817477200DE0DAA /* RxCocoa */; };
 		E4305B402817477200DE0DAA /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E4305B3F2817477200DE0DAA /* RxRelay */; };
 		E4305B432817478200DE0DAA /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = E4305B422817478200DE0DAA /* RxDataSources */; };
+		E4305B4528174EC400DE0DAA /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B4428174EC400DE0DAA /* SearchViewModel.swift */; };
+		E4305B4728174FAF00DE0DAA /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B4628174FAF00DE0DAA /* SearchResultCell.swift */; };
+		E4305B4928174FCD00DE0DAA /* SearchResultCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B4828174FCD00DE0DAA /* SearchResultCellViewModel.swift */; };
+		E4305B4B2817557E00DE0DAA /* SongDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B4A2817557E00DE0DAA /* SongDatabase.swift */; };
+		E4305B4D281758E500DE0DAA /* SongPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B4C281758E500DE0DAA /* SongPreviewController.swift */; };
+		E4305B5128175CF700DE0DAA /* Lyric.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B5028175CF700DE0DAA /* Lyric.swift */; };
+		E4305B532817615600DE0DAA /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B522817615600DE0DAA /* RoomViewController.swift */; };
+		E4305B552817618000DE0DAA /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B542817618000DE0DAA /* RoomViewModel.swift */; };
+		E4305B572817793700DE0DAA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B562817793600DE0DAA /* Video.swift */; };
+		E4305B59281779BF00DE0DAA /* UIImageView+loadImageUsingURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B58281779BF00DE0DAA /* UIImageView+loadImageUsingURL.swift */; };
+		E4305B5B28177AAB00DE0DAA /* YouTubeFetchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B5A28177AAB00DE0DAA /* YouTubeFetchManager.swift */; };
+		E4305B5D28178CD200DE0DAA /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B5C28178CD200DE0DAA /* VideoPlayerViewController.swift */; };
+		E4305B5F28178DA800DE0DAA /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4305B5E28178DA800DE0DAA /* VideoPlayerViewModel.swift */; };
+		E4305B62281791B700DE0DAA /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = E4305B61281791B700DE0DAA /* YouTubeiOSPlayerHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,8 +114,20 @@
 		E4305B0F2817461700DE0DAA /* String+convertFromHTMLToAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+convertFromHTMLToAttributedString.swift"; sourceTree = "<group>"; };
 		E4305B312817466600DE0DAA /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		E4305B33281746A000DE0DAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		E4305B35281746A900DE0DAA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E4305B37281746C100DE0DAA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E4305B4428174EC400DE0DAA /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		E4305B4628174FAF00DE0DAA /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		E4305B4828174FCD00DE0DAA /* SearchResultCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCellViewModel.swift; sourceTree = "<group>"; };
+		E4305B4A2817557E00DE0DAA /* SongDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDatabase.swift; sourceTree = "<group>"; };
+		E4305B4C281758E500DE0DAA /* SongPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPreviewController.swift; sourceTree = "<group>"; };
+		E4305B5028175CF700DE0DAA /* Lyric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyric.swift; sourceTree = "<group>"; };
+		E4305B522817615600DE0DAA /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		E4305B542817618000DE0DAA /* RoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
+		E4305B562817793600DE0DAA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E4305B58281779BF00DE0DAA /* UIImageView+loadImageUsingURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+loadImageUsingURL.swift"; sourceTree = "<group>"; };
+		E4305B5A28177AAB00DE0DAA /* YouTubeFetchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeFetchManager.swift; sourceTree = "<group>"; };
+		E4305B5C28178CD200DE0DAA /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		E4305B5E28178DA800DE0DAA /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +139,7 @@
 				E4305B432817478200DE0DAA /* RxDataSources in Frameworks */,
 				E4305B3E2817477200DE0DAA /* RxCocoa in Frameworks */,
 				E4305B3B2817476000DE0DAA /* SnapKit in Frameworks */,
+				E4305B62281791B700DE0DAA /* YouTubeiOSPlayerHelper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +254,7 @@
 				E4305B0D2817461700DE0DAA /* String+capitalization.swift */,
 				E4305B0E2817461700DE0DAA /* Double+roundToDecimalPlace.swift */,
 				E4305B0F2817461700DE0DAA /* String+convertFromHTMLToAttributedString.swift */,
+				E4305B58281779BF00DE0DAA /* UIImageView+loadImageUsingURL.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -245,7 +272,8 @@
 			isa = PBXGroup;
 			children = (
 				E4305B33281746A000DE0DAA /* HomeViewController.swift */,
-				E4305B35281746A900DE0DAA /* SearchViewController.swift */,
+				E4305B4C281758E500DE0DAA /* SongPreviewController.swift */,
+				E4305B5C28178CD200DE0DAA /* VideoPlayerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -263,6 +291,7 @@
 		E4305B2A2817463600DE0DAA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E4305B4628174FAF00DE0DAA /* SearchResultCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,7 +299,12 @@
 		E4305B2B2817463B00DE0DAA /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				E4305B5A28177AAB00DE0DAA /* YouTubeFetchManager.swift */,
+				E4305B4A2817557E00DE0DAA /* SongDatabase.swift */,
 				E4305B37281746C100DE0DAA /* HomeViewModel.swift */,
+				E4305B4428174EC400DE0DAA /* SearchViewModel.swift */,
+				E4305B4828174FCD00DE0DAA /* SearchResultCellViewModel.swift */,
+				E4305B5E28178DA800DE0DAA /* VideoPlayerViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -279,6 +313,8 @@
 			isa = PBXGroup;
 			children = (
 				E4305B312817466600DE0DAA /* Song.swift */,
+				E4305B5028175CF700DE0DAA /* Lyric.swift */,
+				E4305B562817793600DE0DAA /* Video.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -296,6 +332,7 @@
 		E4305B2E2817465600DE0DAA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E4305B522817615600DE0DAA /* RoomViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -303,6 +340,7 @@
 		E4305B2F2817465A00DE0DAA /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				E4305B542817618000DE0DAA /* RoomViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -335,6 +373,7 @@
 				E4305B3D2817477200DE0DAA /* RxCocoa */,
 				E4305B3F2817477200DE0DAA /* RxRelay */,
 				E4305B422817478200DE0DAA /* RxDataSources */,
+				E4305B61281791B700DE0DAA /* YouTubeiOSPlayerHelper */,
 			);
 			productName = Karaokieee;
 			productReference = E4305AC3281745C900DE0DAA /* Karaokieee.app */;
@@ -412,6 +451,7 @@
 				E4305B392817476000DE0DAA /* XCRemoteSwiftPackageReference "SnapKit" */,
 				E4305B3C2817477200DE0DAA /* XCRemoteSwiftPackageReference "RxSwift" */,
 				E4305B412817478200DE0DAA /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				E4305B60281791B700DE0DAA /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
 			);
 			productRefGroup = E4305AC4281745C900DE0DAA /* Products */;
 			projectDirPath = "";
@@ -457,11 +497,16 @@
 			files = (
 				E4305B252817461700DE0DAA /* Double+roundToDecimalPlace.swift in Sources */,
 				E4305B1E2817461700DE0DAA /* UIStack+RemoveAll.swift in Sources */,
+				E4305B572817793700DE0DAA /* Video.swift in Sources */,
 				E4305B192817461700DE0DAA /* String+convertEmojiToImage.swift in Sources */,
+				E4305B532817615600DE0DAA /* RoomViewController.swift in Sources */,
 				E4305B222817461700DE0DAA /* UILabel+setLineHeight.swift in Sources */,
+				E4305B4D281758E500DE0DAA /* SongPreviewController.swift in Sources */,
 				E4305B132817461700DE0DAA /* RoundButton.swift in Sources */,
 				E4305B38281746C100DE0DAA /* HomeViewModel.swift in Sources */,
+				E4305B4528174EC400DE0DAA /* SearchViewModel.swift in Sources */,
 				E4305AC7281745C900DE0DAA /* AppDelegate.swift in Sources */,
+				E4305B5128175CF700DE0DAA /* Lyric.swift in Sources */,
 				E4305AC9281745C900DE0DAA /* SceneDelegate.swift in Sources */,
 				E4305B232817461700DE0DAA /* UIViewController+Utils.swift in Sources */,
 				E4305B1D2817461700DE0DAA /* Date+startOfMonth.swift in Sources */,
@@ -471,19 +516,26 @@
 				E4305B112817461700DE0DAA /* ViewController.swift in Sources */,
 				E4305B152817461700DE0DAA /* TextButton.swift in Sources */,
 				E4305B34281746A000DE0DAA /* HomeViewController.swift in Sources */,
+				E4305B59281779BF00DE0DAA /* UIImageView+loadImageUsingURL.swift in Sources */,
 				E4305B122817461700DE0DAA /* IconButton.swift in Sources */,
 				E4305B142817461700DE0DAA /* CircleView.swift in Sources */,
+				E4305B4728174FAF00DE0DAA /* SearchResultCell.swift in Sources */,
 				E4305B1C2817461700DE0DAA /* UIViewController+Keyboard.swift in Sources */,
 				E4305B242817461700DE0DAA /* String+capitalization.swift in Sources */,
 				E4305B202817461700DE0DAA /* Date+BeforeAfter.swift in Sources */,
 				E4305B172817461700DE0DAA /* UIFont+Theme.swift in Sources */,
+				E4305B4B2817557E00DE0DAA /* SongDatabase.swift in Sources */,
 				E4305B182817461700DE0DAA /* UIView+fadein.swift in Sources */,
-				E4305B36281746A900DE0DAA /* SearchViewController.swift in Sources */,
+				E4305B5F28178DA800DE0DAA /* VideoPlayerViewModel.swift in Sources */,
 				E4305B262817461700DE0DAA /* String+convertFromHTMLToAttributedString.swift in Sources */,
+				E4305B4928174FCD00DE0DAA /* SearchResultCellViewModel.swift in Sources */,
 				E4305B102817461700DE0DAA /* Constants.swift in Sources */,
 				E4305B1F2817461700DE0DAA /* UIView+roundCorners.swift in Sources */,
 				E4305B322817466600DE0DAA /* Song.swift in Sources */,
+				E4305B5B28177AAB00DE0DAA /* YouTubeFetchManager.swift in Sources */,
+				E4305B5D28178CD200DE0DAA /* VideoPlayerViewController.swift in Sources */,
 				E4305B1A2817461700DE0DAA /* UIColor+hex.swift in Sources */,
+				E4305B552817618000DE0DAA /* RoomViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +893,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		E4305B60281791B700DE0DAA /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -863,6 +923,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E4305B412817478200DE0DAA /* XCRemoteSwiftPackageReference "RxDataSources" */;
 			productName = RxDataSources;
+		};
+		E4305B61281791B700DE0DAA /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4305B60281791B700DE0DAA /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
